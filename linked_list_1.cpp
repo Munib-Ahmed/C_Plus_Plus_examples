@@ -73,6 +73,7 @@ while (curr->data != x && curr->next!=NULL){
 temp=curr;
 curr=curr->next;
 }
+if(curr->next==NULL && curr->data != x){cout<<"Number not avaialable"<<endl;}
 if (curr->data==x){temp->next=curr->next;}
 if(curr->data == x && curr->next==NULL){temp->next=NULL;}
 if(curr->data == x && curr==head){head=head->next;}
