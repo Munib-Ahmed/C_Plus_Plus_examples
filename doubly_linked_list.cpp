@@ -62,7 +62,6 @@ curr=curr->next;
 }
 }
 
-
 void list:: print_reverse(){
 cout<<"printing in reverse order"<<endl;
 print(head);
