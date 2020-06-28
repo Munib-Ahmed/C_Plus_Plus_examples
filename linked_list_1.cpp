@@ -102,4 +102,3 @@ if(i==0){cout<<" time to exit"<<endl;}}
 
 return 0;
 }
-
