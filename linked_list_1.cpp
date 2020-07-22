@@ -38,7 +38,6 @@ curr->next=n;
 else{head=n;}
 }
 
-
 void list:: print(){
 curr=head;
 while(curr!=NULL){
