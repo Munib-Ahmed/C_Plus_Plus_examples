@@ -109,6 +109,7 @@ if (curr->data==x){temp->next=curr->next;curr=curr->next;if(curr!= NULL){curr->p
 
 
 
+
 int main(){
 list object;
 int i=10;
