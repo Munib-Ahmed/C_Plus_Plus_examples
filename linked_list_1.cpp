@@ -82,6 +82,7 @@ if(curr->data == x && curr==head){head=head->next;}
 int main(){
 list object;
 int i=10;
+ 
 while(i!=0){
  cout<< " -- 1 -- to Insert"<< endl;
  cout<< " -- 2 -- to Search"<< endl;
@@ -98,6 +99,5 @@ if(i==3){cout<<"You selected Printing ("<< i<<")"<<endl; object.print();}
 if(i==4){cout<<"You selected deletion ("<< i<<")"<<endl; object.delete_node();}
 if(i==0){cout<<" time to exit"<<endl;}}
 }
-
 return 0;
 }
